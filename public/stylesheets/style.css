@@ -1,8 +1,33 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.hero-section {
+  float: left;
+  padding: 1em;
 }
 
-a {
-  color: #00B7FF;
+.hero-section section {
+  float: left;
+  padding: 1em;
+}
+
+.backend-hero img:hover {
+  border: 3px solid red;
+}
+
+.frontend-hero img:hover {
+  border: 3px solid yellow;
+}
+
+#backend-intro {
+  display: none;
+}
+
+.backend-hero p {
+  width: 460px;
+}
+
+#frontend-intro {
+  display: none;
+}
+
+.frontend-hero p {
+  width: 460px;
 }

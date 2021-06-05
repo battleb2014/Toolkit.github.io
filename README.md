@@ -15,9 +15,9 @@ To get the node server running locally:
 # Code Overview
 ## Dependencies
 * [express](https://expressjs.com/) The server for handling and routing HTTP requests
+* [jquery](https://jquery.com/) Write Less, Do More.
 * [express-validator](https://express-validator.github.io/docs/) Express middleware that wraps validator js for validation and sanitation  
 * [handlebars](https://handlebarsjs.com/guide/#what-is-handlebars) A suave templating language
 * [nodemon](https://nodemon.io/) Monitors for changes and automatically restarts server
-
 
 
