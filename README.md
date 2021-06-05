@@ -19,5 +19,5 @@ To get the node server running locally:
 * [express-validator](https://express-validator.github.io/docs/) Express middleware that wraps validator js for validation and sanitation  
 * [handlebars](https://handlebarsjs.com/guide/#what-is-handlebars) A suave templating language
 * [nodemon](https://nodemon.io/) Monitors for changes and automatically restarts server
-
+* [github pages](https://pages.github.com/) Handles CI/CD pipeline
 
