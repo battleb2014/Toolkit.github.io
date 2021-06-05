@@ -1,5 +1,6 @@
 const $backendHero = $("#backend-hero-image");
 const $backendIntro = $("#backend-intro");
+const $backendHeroSection = $("#backend-hero");
 
 const $frontendHero = $("#frontend-hero-image");
 const $frontendIntro = $("#frontend-intro");
