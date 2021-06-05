@@ -1,9 +1,9 @@
 const $backendHero = $("#backend-hero-image");
-const $backendIntro = $("#backend-intro");
+const $backendIntro = $("#backend-hero-intro");
 const $backendHeroSection = $("#backend-hero");
 
 const $frontendHero = $("#frontend-hero-image");
-const $frontendIntro = $("#frontend-intro");
+const $frontendIntro = $("#frontend-hero-intro");
 
 $(document).ready(() => {
     $backendHero.on('mouseover', () => {

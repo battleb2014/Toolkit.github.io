@@ -23,7 +23,7 @@
   border: 3px solid yellow;
 }
 
-#backend-intro {
+#backend-hero-intro {
   display: none;
 }
 
@@ -31,7 +31,7 @@
   width: 460px;
 }
 
-#frontend-intro {
+#frontend-hero-intro {
   display: none;
 }
 
