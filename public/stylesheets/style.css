@@ -1,25 +1,51 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 5em;
+  background-color: aliceblue;
+}
+
 .hero-city {
-  background-image: url('../images/hero_city.jpg');
-  background-size: cover;
+  padding: 0 30%;
+  width: 100vw;
+  background-image: url('../images/hero_city.svg');
+  background-size: 60% 150%;
   background-repeat: no-repeat;
   height: 500px;
 }
 
+.main {
+  display: flex;
+  justify-content: center;
+}
+
 .hero-section {
-  float: left;
   padding: 1em;
 }
 
 .hero-section section {
-  float: left;
+  margin: 3em;
   padding: 1em;
 }
 
+.backend-hero {
+  float: left;
+}
+
 .backend-hero img:hover {
+  cursor: pointer;
   border: 3px solid lightgreen;
 }
 
+.frontend-hero {
+  float: right;
+}
+
 .frontend-hero img:hover {
+  cursor: pointer;
   border: 3px solid yellow;
 }
 
