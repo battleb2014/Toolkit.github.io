@@ -10,13 +10,12 @@ header {
 
 .hero-city {
   height: 20em;
-  width: 50%;
-  margin: 0 25%;
-  background-color: aqua;
+  width: 100vw;
   background-image: url('../images/hero_city.svg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-size:  fill;
+  background-position: center;
+  background-size: fill;
 }
 
 .main {
