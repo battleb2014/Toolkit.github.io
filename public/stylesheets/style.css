@@ -1,8 +1,28 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  height: 5em;
+  background-color: aliceblue;
+}
+
 .hero-city {
+  height: 20em;
+  width: 50%;
+  margin: 0 25%;
+  background-color: aqua;
   background-image: url('../images/hero_city.svg');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 500px;
+  background-size:  fill;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
 }
 
 .hero-section {
@@ -15,8 +35,16 @@
   padding: 1em;
 }
 
+.backend-hero {
+  float: left;
+}
+
 .backend-hero img:hover {
   border: 3px solid lightgreen;
+}
+
+.frontend-hero {
+  float: right;
 }
 
 .frontend-hero img:hover {
