@@ -1,33 +1,44 @@
 html {
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
-header {
-  height: 5em;
-  background-color: aliceblue;
-}
-
+/* Small screens 640px wide max */
+@media only screen and (max-width: 640px) {
 .hero-city {
-  padding: 0 30%;
+  height: 20em;
   width: 100vw;
   background-image: url('../images/hero_city.svg');
-  background-size: 60% 150%;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 500px;
+  background-position: center;
+  background-size: fill;
 }
 
 .main {
   display: flex;
+  padding-top: 25px;
+  padding-bottom: 100px;
   justify-content: center;
+  margin-top: 3em;
+}
+
+.artisan-cta {
+  text-align: center;
+}
+
+.artisan-cta p {
+  color: rgb(102, 102, 102);
+  font-size: 20px;
 }
 
 .hero-section {
+  float: left;
   padding: 1em;
 }
 
 .hero-section section {
-  margin: 3em;
+  float: left;
   padding: 1em;
 }
 
@@ -35,18 +46,20 @@ header {
   float: left;
 }
 
-.backend-hero img:hover {
-  cursor: pointer;
+.backend-hero img:hover,
+.backend-hero img:active  {
   border: 3px solid lightgreen;
+  cursor: pointer;
 }
 
 .frontend-hero {
   float: right;
 }
 
-.frontend-hero img:hover {
-  cursor: pointer;
+.frontend-hero img:hover,
+.frontend-hero img:active {
   border: 3px solid yellow;
+  cursor: pointer;
 }
 
 #backend-hero-intro {
@@ -63,4 +76,343 @@ header {
 
 .frontend-hero p {
   width: 460px;
+}
+
+.education-section {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #e4efe7;
+}
+
+.tool-highlight-section section {
+  float: left;
+}
+
+.tool-highlight-description p {
+  margin-left: 150px;
+  margin-top: 50px;
+  width: 500px;
+  color: rgb(102, 102, 102);
+  font-size: 26px;
+  text-align: center;
+}
+
+.resource-company img {
+  margin-left: 200px;
+}
+
+.resource-company img:hover {
+  cursor: pointer;
+}
+
+.artisan-toolkit-section {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #fff5fd;
+}
+
+.toolkit-expanded-section section {
+  float: left;
+}
+
+.toolkit-expanded-description p {
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 500px;
+  color: rgb(102, 102, 102);
+  font-size: 26px;
+  text-align: center;
+}
+
+.toolkit-expanded-description h2 {
+  margin-left: 100px;
+  text-align: center;
+}
+
+.toolkit-expanded-image img {
+  margin-left: 200px;
+  margin-top: 75px;
+}
+
+.toolkit-expanded-image img:hover {
+  cursor: pointer;
+}
+}
+
+/* Medium screen sizes 641px-1007px wide */
+@media only screen and (min-width: 641 and max-width: 1007) {
+  .hero-city {
+    height: 20em;
+    width: 100vw;
+    background-image: url('../images/hero_city.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: fill;
+  }
+  
+  .main {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 100px;
+    justify-content: center;
+    margin-top: 3em;
+  }
+  
+  .artisan-cta {
+    text-align: center;
+  }
+  
+  .artisan-cta p {
+    color: rgb(102, 102, 102);
+    font-size: 20px;
+  }
+  
+  .hero-section {
+    float: left;
+    padding: 1em;
+  }
+  
+  .hero-section section {
+    float: left;
+    padding: 1em;
+  }
+  
+  .backend-hero {
+    float: left;
+  }
+  
+  .backend-hero img:hover,
+  .backend-hero img:active  {
+    border: 3px solid lightgreen;
+    cursor: pointer;
+  }
+  
+  .frontend-hero {
+    float: right;
+  }
+  
+  .frontend-hero img:hover,
+  .frontend-hero img:active {
+    border: 3px solid yellow;
+    cursor: pointer;
+  }
+  
+  #backend-hero-intro {
+    display: none;
+  }
+  
+  .backend-hero p {
+    width: 460px;
+  }
+  
+  #frontend-hero-intro {
+    display: none;
+  }
+  
+  .frontend-hero p {
+    width: 460px;
+  }
+  
+  .education-section {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #e4efe7;
+  }
+  
+  .tool-highlight-section section {
+    float: left;
+  }
+  
+  .tool-highlight-description p {
+    margin-left: 150px;
+    margin-top: 50px;
+    width: 500px;
+    color: rgb(102, 102, 102);
+    font-size: 26px;
+    text-align: center;
+  }
+  
+  .resource-company img {
+    margin-left: 200px;
+  }
+  
+  .resource-company img:hover {
+    cursor: pointer;
+  }
+  
+  .artisan-toolkit-section {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #fff5fd;
+  }
+  
+  .toolkit-expanded-section section {
+    float: left;
+  }
+  
+  .toolkit-expanded-description p {
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 500px;
+    color: rgb(102, 102, 102);
+    font-size: 26px;
+    text-align: center;
+  }
+  
+  .toolkit-expanded-description h2 {
+    margin-left: 100px;
+    text-align: center;
+  }
+  
+  .toolkit-expanded-image img {
+    margin-left: 200px;
+    margin-top: 75px;
+  }
+  
+  .toolkit-expanded-image img:hover {
+    cursor: pointer;
+  }
+}
+
+/* Large screen sizes 1008px and up wide */
+@media only screen and (min-width: 1008px) {
+  .hero-city {
+    height: 20em;
+    width: 100vw;
+    background-image: url('../images/hero_city.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: fill;
+  }
+  
+  .main {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 100px;
+    justify-content: center;
+    margin-top: 3em;
+  }
+  
+  .artisan-cta {
+    text-align: center;
+  }
+  
+  .artisan-cta p {
+    color: rgb(102, 102, 102);
+    font-size: 20px;
+  }
+  
+  .hero-section {
+    float: left;
+    padding: 1em;
+  }
+  
+  .hero-section section {
+    float: left;
+    padding: 1em;
+  }
+  
+  .backend-hero {
+    float: left;
+  }
+  
+  .backend-hero img:hover,
+  .backend-hero img:active  {
+    border: 3px solid lightgreen;
+    cursor: pointer;
+  }
+  
+  .frontend-hero {
+    float: right;
+  }
+  
+  .frontend-hero img:hover,
+  .frontend-hero img:active {
+    border: 3px solid yellow;
+    cursor: pointer;
+  }
+  
+  #backend-hero-intro {
+    display: none;
+  }
+  
+  .backend-hero p {
+    width: 460px;
+  }
+  
+  #frontend-hero-intro {
+    display: none;
+  }
+  
+  .frontend-hero p {
+    width: 460px;
+  }
+  
+  .education-section {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #e4efe7;
+  }
+  
+  .tool-highlight-section section {
+    float: left;
+  }
+  
+  .tool-highlight-description p {
+    margin-left: 150px;
+    margin-top: 50px;
+    width: 500px;
+    color: rgb(102, 102, 102);
+    font-size: 26px;
+    text-align: center;
+  }
+  
+  .resource-company img {
+    margin-left: 200px;
+  }
+  
+  .resource-company img:hover {
+    cursor: pointer;
+  }
+  
+  .artisan-toolkit-section {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #fff5fd;
+  }
+  
+  .toolkit-expanded-section section {
+    float: left;
+  }
+  
+  .toolkit-expanded-description p {
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 500px;
+    color: rgb(102, 102, 102);
+    font-size: 26px;
+    text-align: center;
+  }
+  
+  .toolkit-expanded-description h2 {
+    margin-left: 100px;
+    text-align: center;
+  }
+  
+  .toolkit-expanded-image img {
+    margin-left: 200px;
+    margin-top: 75px;
+  }
+  
+  .toolkit-expanded-image img:hover {
+    cursor: pointer;
+  }
 }
